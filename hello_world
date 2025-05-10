@@ -1,0 +1,3 @@
+#!/bin/bash
+  echo ''hello, world !''
+#scrip écrit depuis mon compte github pour seulement afficher hello World
