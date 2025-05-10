@@ -1,4 +1,4 @@
 #!/bin/bash
   echo ''hello, world !''
-#scrip écrit depuis mon compte github pour seulement afficher hello World
-#Echo c'est comme si je demande à la machine de m'écrire hello world
+##scrip écrit depuis mon compte github pour seulement afficher hello World
+##Echo c'est comme si je demande à la machine de m'écrire hello world
