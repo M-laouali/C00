@@ -1,7 +1,12 @@
 #!/bin/bash
 
-# Créer un répertoire nommé test_directory
-mkdir test_directory
+# Demander à l'utilisateur de saisir le nom du fichier
+echo "Entrez le nom du fichier à vérifier :"
+read filename
 
-# Afficher un message de confirmation
-echo "Le répertoire 'test_directory' a été créé avec succès."
+# Vérifier si le fichier existe
+if [ -f "$filename" ]; then
+    echo "Le fichier '$filename' existe."
+else
+    echo "Le fichier '$filename' n'existe pas."
+fi
