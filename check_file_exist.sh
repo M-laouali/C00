@@ -1,14 +1,7 @@
 #!/bin/bash
-# Script pour vérifier si un fichier donné existe
 
-echo "Entrez le nom du fichier à vérifier :"
-read filename
-#saisisse le nom du vérifier souhaiter vérifier
-#si le fichier existe affiché existe 
+# Créer un répertoire nommé test_directory
+mkdir test_directory
 
-if [ -f "$filename" ]; then
-  echo "Le fichier '$filename' existe."
-else
-  echo "Le fichier '$filename' n'existe pas."
-fi
-#sinon afficher n'existe pas 
+# Afficher un message de confirmation
+echo "Le répertoire 'test_directory' a été créé avec succès."
