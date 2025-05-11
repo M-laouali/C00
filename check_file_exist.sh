@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Affiche exactement ce que tu veux
+# Affiche Entrez le nom du fichier 
 read -p "Entrez le nom du fichier : " filename
 
 # Vérifie l’existence du fichier
