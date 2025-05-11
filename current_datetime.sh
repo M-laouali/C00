@@ -1,5 +1,12 @@
 #!/bin/bash
-#Script pour afficher la date et l'heure actuelle au format "YYYY-MM-DD HH:MM:SS"
 
-current_datetime=$(date +"%Y-%m-%d %H:%M:%S")
-echo "Date et heure actuelle : $current_datetime"
+# Récupère chaque partie de la date/heure
+year=$(date +%Y)
+month=$(date +%m)
+day=$(date +%d)
+hour=$(date +%H)
+minute=$(date +%M)
+second=$(date +%S)
+
+# Affiche le format désiré
+printf "%s-%s-%s %s:%s:%s\n" "$year" "$month" "$day" "$hour" "$minute" "$second"
