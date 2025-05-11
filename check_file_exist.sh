@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# Affiche Entrez le nom du fichier 
-read -p "Entrez le nom du fichier : " filename
+echo -n "Entrez le nom du fichier : "
+read filename
 
-# Vérifie l’existence du fichier
 if [ -f "$filename" ]; then
     echo "Le fichier '$filename' existe."
 else
