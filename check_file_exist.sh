@@ -1,13 +1,11 @@
 #!/bin/bash
 
-# Demande du nom du fichier ou dossier
-read -p "Entrez le nom du fichier ou dossier : " name
+# Demande du nom du fichier
+read -p "Entrez le nom du fichier : " filename
 
-# Vérifie le type
-if [ -f "$name" ]; then
-    echo "'$name' est un fichier."
-elif [ -d "$name" ]; then
-    echo "'$name' est un dossier."
+# Vérifie si le fichier existe
+if [ -f "$filename" ]; then
+    echo "Le fichier '$filename' existe."
 else
-    echo "'$name' n'existe pas."
+    echo "Le fichier '$filename' n'existe pas."
 fi
