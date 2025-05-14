@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Crée le répertoire
-mkdir test_directory
+mkdir -p test_directory
