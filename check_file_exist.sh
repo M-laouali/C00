@@ -2,7 +2,7 @@
 
 echo "Entrez le nom du fichier :"
 read filename
-# la liste de tout 
+# permet de vérifier si un fichier existe ou pas en utilisant la condition si
 if [ -f "$filename" ]; then
     echo "Le fichier '$filename' existe."
 else
